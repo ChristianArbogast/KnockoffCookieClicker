@@ -1,4 +1,5 @@
-# cookie clicker
+# cookie clicker literally stolen from a YT video
+from telnetlib import theNULL
 import turtle
 #make the screen, tell it what to make the title bar say, tell it the Background (BG) color
 wn = turtle.Screen()
@@ -27,5 +28,6 @@ def clicked(x, y):
     pen.write(f"Clicks: {clicks}", align="center", font=("Courier New", 32, "normal"))
 #when cookie is clicked it will add one click and change the text and do the def clicked thing
 cookie.onclick(clicked)
-#thats mainloop
+    
+
 wn.mainloop()
